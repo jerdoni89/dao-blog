@@ -1,0 +1,88 @@
+.editor-wapper {
+    display: block;
+    position: relative;
+}
+
+.editor-wapper {
+    display: block;
+    position: relative;
+}
+
+.editor-wapper .plus-button {
+    display: none;
+    position: absolute;
+    left: -1em;
+    margin-top: 0.15em;
+    font-size: 20px;   
+}
+
+.button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+.editor-wapper .menu-toolt {
+    display: none;
+    position: absolute;
+    left: 30px;
+    font-size: 20px;   
+    padding: 5px 15px;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px -4px #000;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.editor-wapper .menu-toolt li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.editor-wapper .menu-toolt li:last-child{
+    margin-right: 0;
+}
+
+.editor-wapper .menu-toolt li .button{
+   width: 30px;
+}
+
+.view-edit {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left {
+    width: 300px;
+    background-color: #2e2d350a;
+}
+
+.right {
+    width: calc(100% - 330px);
+    margin-left: auto;
+}
+
+.menu {
+    display: block;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.menu li {
+    display: block;
+    padding: 5px 15px;
+}
+
+.menu li:hover {
+    background-color: #2e2d3523;
+}
+
+.menu li.active {
+    background-color: #2e2d3523;
+}
